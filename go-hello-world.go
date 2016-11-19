@@ -12,13 +12,13 @@ func main() {
 
 	router.GET("/", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "index.tmpl", gin.H{
-			"title": "Main website",
+			"title": "Falcon's Nest",
 		})
 	})
 
 	router.GET("/hi", func(c *gin.Context) {
 		c.JSON(200, gin.H{
-			"message": "hi",
+			"message": "hi from The Falcon",
 		})
 	})
 
