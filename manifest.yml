@@ -2,7 +2,6 @@ applications:
 - path: .
   memory: 128M
   instances: 1
-  domain: mybluemix.net
   name: go-hello-world
   host: go-hello-world
   disk_quota: 1024M
