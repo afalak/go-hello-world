@@ -1,9 +1,9 @@
 applications:
 - path: .
-  memory: 128M
+  memory: 32M
   instances: 1
   name: go-hello-world
   host: go-hello-world
-  disk_quota: 1024M
+  disk_quota: 102M
   command: go-hello-world
   buildpack: https://github.com/cloudfoundry/go-buildpack.git
